@@ -27,7 +27,22 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('IMC Calculator'),
+        toolbarHeight: 80,
+        title: const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween, // Alinhe os elementos com espaço entre eles
+          children: [
+            Text("Calculadora IMC"),
+            Column(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Leonardo Paschoa  RA: 1431432312005"),
+                Text("Kauã Oliveira de Souza  RA: 1431432312014")
+              ],
+            )
+          ],
+        ),
+        
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
