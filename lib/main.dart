@@ -36,8 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Leonardo Paschoa  RA: 1431432312005"),
-                Text("Kauã Oliveira de Souza  RA: 1431432312014")
+                Text("Felipe Thaylan Pereira Lima  RA: 1431432312030"),
+                Text("Matheus Silva Gomes  RA: 1431432312017")
               ],
             )
           ],
